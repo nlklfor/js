@@ -26,3 +26,40 @@
 //         console.log("Verno");
 //         break;
 // }
+
+
+// function showFirstMessage(){
+//     console.log("Hello World!");
+// }
+
+// showFirstMessage();
+
+function showFirstMessage(message){
+    console.log(message);
+}
+
+showFirstMessage("Hello Toha Krutoy Chuvak!");
+
+let num = 10;
+
+function showNumber(){
+    let num = 100;
+    
+    console.log(num);
+}
+
+showNumber();
+
+function calc(a , b ,c , d){
+    return((a*b)/(c+d));
+}
+
+console.log(calc(4 , 5 , 2 , 4));
+
+const calcualate = (a , b) => a * b;
+
+console.log(calcualate(4 ,8));
+
+const word = "Toha Krutoy Pedik";
+
+console.log(word.slice(5, 11));
